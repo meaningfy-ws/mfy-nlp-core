@@ -5,9 +5,9 @@
 # Author: Stratulat Ștefan
 # Email: stefan.stratulat1997@gmail.com
 
-from sem_covid.adapters.abstract_model import WordEmbeddingModelABC
-from sem_covid.adapters.embedding_models import Word2VecEmbeddingModel
-from tests.fake_keyed_vectors import FakeKeyedVectors
+from mfy_nlp_core.adapters.abstract_model import WordEmbeddingModelABC
+from mfy_nlp_core.adapters.embedding_models import Word2VecEmbeddingModel
+from mfy_nlp_core_fakes.fake_keyed_vectors import FakeKeyedVectors
 
 
 def test_word2vec_embedding_model():

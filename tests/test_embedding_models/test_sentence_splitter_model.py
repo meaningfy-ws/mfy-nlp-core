@@ -5,9 +5,9 @@
 # Author: Stratulat Ștefan
 # Email: stefan.stratulat1997@gmail.com
 
-from sem_covid.adapters.embedding_models import BasicSentenceSplitterModel, SpacySentenceSplitterModel, \
+from mfy_nlp_core.adapters.embedding_models import BasicSentenceSplitterModel, SpacySentenceSplitterModel, \
     WindowedTextSplitterModel
-from tests.unit.conftest import nlp
+from tests import nlp
 
 TEXT = 'Hello Siri! Hello Sam. Hello Jhon; Hello Adam?'
 

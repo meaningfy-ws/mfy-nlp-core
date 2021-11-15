@@ -5,9 +5,9 @@
 # Author: Stratulat Ștefan
 # Email: stefan.stratulat1997@gmail.com
 
-from sem_covid.adapters.abstract_model import TokenizerModelABC
-from sem_covid.adapters.embedding_models import BasicTokenizerModel, SpacyTokenizerModel
-from tests.unit.conftest import nlp
+from mfy_nlp_core.adapters.abstract_model import TokenizerModelABC
+from mfy_nlp_core.adapters.embedding_models import BasicTokenizerModel, SpacyTokenizerModel
+from tests import nlp
 
 
 def test_basic_tokenizer_model():

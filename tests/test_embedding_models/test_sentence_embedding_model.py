@@ -5,13 +5,13 @@
 # Author: Stratulat Ștefan
 # Email: stefan.stratulat1997@gmail.com
 
-from sem_covid.adapters.abstract_model import SentenceEmbeddingModelABC, WordEmbeddingModelABC
-from sem_covid.adapters.embedding_models import (AverageSentenceEmbeddingModel, Word2VecEmbeddingModel,
+from mfy_nlp_core.adapters.abstract_model import SentenceEmbeddingModelABC, WordEmbeddingModelABC
+from mfy_nlp_core.adapters.embedding_models import (AverageSentenceEmbeddingModel, Word2VecEmbeddingModel,
                                                  BasicTokenizerModel, SpacyTokenizerModel, TfIdfSentenceEmbeddingModel,
                                                  UniversalSentenceEmbeddingModel,
                                                  EurLexBertSentenceEmbeddingModel)
-from tests.unit.conftest import nlp
-from tests.fake_keyed_vectors import FakeKeyedVectors
+from tests import nlp
+from mfy_nlp_core_fakes.fake_keyed_vectors import FakeKeyedVectors
 
 SENTENCES = [
     'Rather than having all of its functionality built into its core.',
