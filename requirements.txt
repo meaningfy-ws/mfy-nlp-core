@@ -1,0 +1,11 @@
+torch
+more-itertools
+numpy
+gensim
+pandas
+scikit-learn
+tensorflow-hub 
+transformers
+tensorflow
+spacy
+clean-text
