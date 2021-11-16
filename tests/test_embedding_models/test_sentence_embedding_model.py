@@ -10,7 +10,7 @@ from mfy_nlp_core.adapters.embedding_models import (AverageSentenceEmbeddingMode
                                                  BasicTokenizerModel, SpacyTokenizerModel, TfIdfSentenceEmbeddingModel,
                                                  UniversalSentenceEmbeddingModel,
                                                  EurLexBertSentenceEmbeddingModel)
-from tests import nlp
+from mfy_nlp_core.services import nlp
 from mfy_nlp_core_fakes.fake_keyed_vectors import FakeKeyedVectors
 
 SENTENCES = [

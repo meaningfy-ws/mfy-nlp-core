@@ -5,9 +5,9 @@ from typing import List
 
 import pandas as pd
 from cleantext import clean
-import spacy
+from mfy_nlp_core.services import nlp
 
-nlp = spacy.load("en_core_web_sm")
+
 
 
 def clean_fix_unicode(text: str) -> str:

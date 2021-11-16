@@ -7,7 +7,7 @@
 
 from mfy_nlp_core.adapters.abstract_model import TokenizerModelABC
 from mfy_nlp_core.adapters.embedding_models import BasicTokenizerModel, SpacyTokenizerModel
-from tests import nlp
+from mfy_nlp_core.services import nlp
 
 
 def test_basic_tokenizer_model():
