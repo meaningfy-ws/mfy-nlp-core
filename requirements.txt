@@ -101,3 +101,4 @@ wrapt==1.13.3
 zipp==3.6.0
 en-core-web-md==3.2.0
 pytest==6.2.4
+pytest-html==3.1.1
