@@ -1,5 +1,5 @@
 SHELL=/bin/bash -o pipefail
-BUILD_PRINT = \e[1;34mSTEP: \e[0m
+BUILD_PRINT = STEP: 
 
 
 #-----------------------------------------------------------------------------
