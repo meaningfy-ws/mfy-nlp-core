@@ -7,7 +7,7 @@
 
 from mfy_nlp_core.adapters.embedding_models import BasicSentenceSplitterModel, SpacySentenceSplitterModel, \
     WindowedTextSplitterModel
-from tests import nlp
+from mfy_nlp_core.services import nlp
 
 TEXT = 'Hello Siri! Hello Sam. Hello Jhon; Hello Adam?'
 

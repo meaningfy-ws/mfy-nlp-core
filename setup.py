@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-REQUIREMENTS_FILE_NAME = 'requirements.txt'
+REQUIREMENTS_FILE_NAME = 'requirements/requirements-lock.txt'
 
 install_requirements = []
 
@@ -15,7 +15,6 @@ setup(
     author='Meaningfy',
     license='Apache License 2.0',
     install_requires=install_requirements,
-    dependency_links=['https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0-py3-none-any.whl'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     test_suite='tests',
