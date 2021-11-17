@@ -1,8 +1,6 @@
 from setuptools import find_packages, setup
 
-REQUIREMENTS_FILE_NAME = 'requirements.txt'
-
-SPACY_EN_CORE_WEB_MD = 'https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.2.0/en_core_web_md-3.2.0-py3-none-any.whl'
+REQUIREMENTS_FILE_NAME = 'requirements/requirements-lock.txt'
 
 install_requirements = []
 
@@ -17,7 +15,6 @@ setup(
     author='Meaningfy',
     license='Apache License 2.0',
     install_requires=install_requirements,
-    dependency_links=[SPACY_EN_CORE_WEB_MD],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     test_suite='tests',

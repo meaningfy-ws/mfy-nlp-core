@@ -100,9 +100,3 @@ Werkzeug==2.0.2
 wrapt==1.13.3
 zipp==3.6.0
 en-core-web-md==3.2.0
-pytest-bdd==4.1.0
-pytest-cov==2.12.1
-pytest-html==3.1.1
-pytest-metadata==1.11.0
-pytest-mock==3.6.1
-pytest==6.2.4
