@@ -9,7 +9,6 @@ SPACY_MODEL_LINK = 'https://github.com/explosion/spacy-models/releases/download/
 install_requirements = []
 
 with open(REQUIREMENTS_FILE_NAME) as file:
-    #install_requirements = file.read().splitlines()
     install_requirements = list(map(str.strip,file.read().splitlines()))
 
 setup(
