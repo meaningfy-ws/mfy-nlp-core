@@ -6,11 +6,7 @@ BUILD_PRINT = STEP:
 # PIP Install commands
 #-----------------------------------------------------------------------------
 
-install-spacy-model:
-	@ echo "$(BUILD_PRINT)Installing the spacy model"
-	@ pip install 'en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.2.0/en_core_web_md-3.2.0-py3-none-any.whl'
-
-install-prod: install-spacy-model
+install-prod:
 	@ echo "$(BUILD_PRINT)Installing the prod requirements"
 	@ pip install -r requirements/requirements-prod.txt
 
