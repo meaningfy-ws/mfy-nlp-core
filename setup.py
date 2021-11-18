@@ -5,7 +5,8 @@ REQUIREMENTS_FILE_NAME = 'requirements/requirements-lock.txt'
 install_requirements = []
 
 with open(REQUIREMENTS_FILE_NAME) as file:
-    install_requirements = list(map(str.strip,file.read().splitlines()))
+    install_requirements = file.read().splitlines()
+    #install_requirements = list(map(str.strip,file.read().splitlines()))
 
 setup(
     name='mfy_nlp_core',
